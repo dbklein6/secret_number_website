@@ -6,7 +6,7 @@ require 'sinatra'
 
 # Here, we're setting a special kind of variable, called a constant. Constants
 # are not meant to ever change, that's why we keep them all in upper case.
-SECRET_NUMBER = rand(1..10)
+SECRET_NUMBER = rand(1..9)
 
 # Below we define the homepage URL for when a user browses to
 # http://localhost:4567/. There should be no need to edit the `get` line.
